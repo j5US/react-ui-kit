@@ -1,0 +1,36 @@
+.slider-container {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .slider {
+    /* display: flex; */
+    /* flex-wrap: nowrap; */
+    overflow-x: auto;
+    /* padding: 10px; */
+    /* margin: auto;
+    padding: auto; */
+  }
+  
+  .slide {
+    flex: 0 0 200px; /* Set the width of each slide */
+    margin: 10px;
+    /* background-color: #f0f0f0;
+    border: 1px solid #ddd; */
+    padding: 20px;
+  }
+  
+  /* .prev, .next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+  } */
+  
+  /* .prev {
+    left: 10px;
+  } */
+  
+  /* .next {
+    right: 10px;
+  } */
